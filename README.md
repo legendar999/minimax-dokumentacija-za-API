@@ -5,6 +5,16 @@
 
 ---
 
+## ⚠️ Pravno obvestilo / Disclaimer
+
+To je **neuradna** kopija oz. predelava javno dostopne API dokumentacije računovodskega sistema **Minimax**, urejena za lažje podajanje v AI modele. **Ni** uraden repozitorij in **ni** povezan ali potrjen s strani Minimaxa.
+
+Vse avtorske pravice do izvorne vsebine pripadajo podjetju **Minimax / Seyfor d.o.o.** Vsebina je tu zgolj za priročnost; merodajen je vedno uradni vir: [moj.minimax.si/SI/API](https://moj.minimax.si/SI/API).
+
+Ker avtorske pravice do te vsebine niso moje, repozitorij **ni** opremljen z licenco za odprto kodo — gradiva ne morem licencirati. Za pogoje uporabe glejte uradne pogoje Minimaxa.
+
+---
+
 ## Splošne informacije
 
 - Home
