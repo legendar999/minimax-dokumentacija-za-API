@@ -6,6 +6,9 @@
 
 ---
 
+> ⚠️ **Neuradno** — to je kopija javno dostopne Minimax API dokumentacije, urejena za AI. Avtorske pravice do vsebine pripadajo **Minimax / Seyfor d.o.o.**; ta repozitorij ni uraden in ni licenciran. Merodajen je uradni vir. Glej [pravno obvestilo](../README.md).
+
+
 ## Pregled metod
 
 | # | HTTP | Metoda | Opis |
@@ -118,13 +121,18 @@ Returns an employee.
 | `Country` | class Country. Employee country. |
 | `CountryOfResidence` | class Country. Employee residence country. |
 | `DateOfBirth` | Employee date of birth. |
-| `Gender` | Possible values: (M, Z). Employee gender:   M - Man Z - Woman |
+| `Gender` | Possible values: (M, Z). Employee gender:
+   M - Man Z - Woman |
 | `EmploymentStartDate` | Date of employment. |
 | `EmploymentEndDate` | Employment end date. |
 | `Notes` | Notes. |
-| `EmploymentType` | Employment type:   ZD - Employed worker ZL - Employed owner ZAP - Employed elsewhere DSP - Pupil or student on compulsory practical training DD - Seconded worker ZJD - Employee - community work |
+| `EmploymentType` | Employment type:
+   ZD - Employed worker ZL - Employed owner ZAP - Employed elsewhere DSP - Pupil or student on compulsory practical training DD - Seconded worker ZJD - Employee - community work |
 | `PersonalIdenficationNumber` | Employee Personal identification number. |
-| `InsuranceBasis` | Employee Insurance base for employment type ZL and organisation type »Zasebnik«:   005 - Basis 005   EmploymentType ZL and organisation type »Gospodarska družba«:   040in112 - Basis 040 + 112, 040 - Basis 040, 103 - Basis 103. |
+| `InsuranceBasis` | Employee Insurance base for employment type ZL and organisation type »Zasebnik«:
+   005 - Basis 005 
+  EmploymentType ZL and organisation type »Gospodarska družba«:
+   040in112 - Basis 040 + 112, 040 - Basis 040, 103 - Basis 103. |
 | `RecordDtModified` |  |
 | `RowVersion` | Row version is used for concurrency check. |
 

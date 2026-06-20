@@ -6,6 +6,9 @@
 
 ---
 
+> ⚠️ **Neuradno** — to je kopija javno dostopne Minimax API dokumentacije, urejena za AI. Avtorske pravice do vsebine pripadajo **Minimax / Seyfor d.o.o.**; ta repozitorij ni uraden in ni licenciran. Merodajen je uradni vir. Glej [pravno obvestilo](../README.md).
+
+
 ## Pregled metod
 
 | # | HTTP | Metoda | Opis |
@@ -112,7 +115,8 @@ Returns an address.
 | --- | --- |
 | `AddressId` | Address id. |
 | `Customer` | class Customer. Customer |
-| `Type` | Possible values: (N, P). Address type:   N=Addressee; P=Recipient |
+| `Type` | Possible values: (N, P). Address type:
+   N=Addressee; P=Recipient |
 | `Name` | Name. |
 | `GLN` | GLN. |
 | `Address` | Address. |
@@ -120,7 +124,8 @@ Returns an address.
 | `City` | City. |
 | `Country` | class Country. Country. |
 | `CountryName` | Country name. |
-| `Default` | Default address for given address type:   N – no, D – yes. |
+| `Default` | Default address for given address type:
+   N – no, D – yes. |
 | `RecordDtModified` |  |
 | `RowVersion` | Row version is used for concurrency check. |
 

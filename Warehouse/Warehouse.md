@@ -6,6 +6,9 @@
 
 ---
 
+> ⚠️ **Neuradno** — to je kopija javno dostopne Minimax API dokumentacije, urejena za AI. Avtorske pravice do vsebine pripadajo **Minimax / Seyfor d.o.o.**; ta repozitorij ni uraden in ni licenciran. Merodajen je uradni vir. Glej [pravno obvestilo](../README.md).
+
+
 ## Pregled metod
 
 | # | HTTP | Metoda | Opis |
@@ -110,16 +113,21 @@ Returns a warehouse.
 | `WarehouseId` | Warehouse id. |
 | `Code` | Warehouse code. |
 | `Name` | Warehouse name. |
-| `InventoryManagement` | Type of inventory management:   Nabavna – Purchase value, Prodajna – Sales value |
-| `InventoryManagementByValue` | Enable selling price input in stocks:   D - yes, N - no |
-| `SellingPriceInput` | InventoryManagement only by value:   D - yes, N - no |
-| `InventoryBookkeping` | Type of inventory bookkepping:   Nabavna – Purchase value, Prodajna – Sales value |
+| `InventoryManagement` | Type of inventory management:
+   Nabavna – Purchase value, Prodajna – Sales value |
+| `InventoryManagementByValue` | Enable selling price input in stocks:
+   D - yes, N - no |
+| `SellingPriceInput` | InventoryManagement only by value:
+   D - yes, N - no |
+| `InventoryBookkeping` | Type of inventory bookkepping:
+   Nabavna – Purchase value, Prodajna – Sales value |
 | `StocksAccount` | class Account. Stocks account. |
 | `PDAccount` | class Account. Account for price difference. |
 | `VATStandardAccount` | class Account. Account for VAT standard rate. |
 | `VATReducedAccount` | class Account. Account for VAT reduced rate. |
 | `VATSpecialReducedAccount` | class Account. Account for VAT special reduced rate. |
-| `Usage` | Usage:   D - yes, N - no |
+| `Usage` | Usage:
+   D - yes, N - no |
 | `RecordDtModified` |  |
 | `RowVersion` | Row version is used for concurrency check. |
 

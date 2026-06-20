@@ -6,6 +6,9 @@
 
 ---
 
+> ⚠️ **Neuradno** — to je kopija javno dostopne Minimax API dokumentacije, urejena za AI. Avtorske pravice do vsebine pripadajo **Minimax / Seyfor d.o.o.**; ta repozitorij ni uraden in ni licenciran. Merodajen je uradni vir. Glej [pravno obvestilo](../README.md).
+
+
 ## Pregled metod
 
 | # | HTTP | Metoda | Opis |
@@ -45,7 +48,8 @@ Returns the specified outbox item.
 | `Customer` | class Customer. Customer. |
 | `Employee` | class Employee. Employee. |
 | `OutboxDate` | Outbox date. |
-| `OutboxType` | Outbox type:   IR - Issued invoices DO - Delivery note OP - Payroll |
+| `OutboxType` | Outbox type:
+   IR - Issued invoices DO - Delivery note OP - Payroll |
 | `Description` | Description |
 | `Attachments` | Outbox attachments. List of OutboxAttachment. |
 | `RecordDtModified` |  |

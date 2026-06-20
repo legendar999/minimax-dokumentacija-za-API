@@ -6,6 +6,9 @@
 
 ---
 
+> ⚠️ **Neuradno** — to je kopija javno dostopne Minimax API dokumentacije, urejena za AI. Avtorske pravice do vsebine pripadajo **Minimax / Seyfor d.o.o.**; ta repozitorij ni uraden in ni licenciran. Merodajen je uradni vir. Glej [pravno obvestilo](../README.md).
+
+
 ## Pregled metod
 
 | # | HTTP | Metoda | Opis |
@@ -120,24 +123,32 @@ Returns an item.
 | `Code` | Item code. |
 | `EANCode` | EAN code. |
 | `Description` | Item description. |
-| `ItemType` | Possible values: (B, M, P, I, S, A, AS). Item type:   B – Goods, M – Material, P - Semifinished product, I – Product, S – Services, A - Advance payment, AS - Pre payments for services |
-| `StocksManagedOnlyByQuantity` | Possible values: (D, N). Defines whether are stocks managed only by quantity.   N - stocks are managed by quantity and value D - stocks are managed only by quantity    Default value: N. |
+| `ItemType` | Possible values: (B, M, P, I, S, A, AS). Item type:
+   B – Goods, M – Material, P - Semifinished product, I – Product, S – Services, A - Advance payment, AS - Pre payments for services |
+| `StocksManagedOnlyByQuantity` | Possible values: (D, N). Defines whether are stocks managed only by quantity.
+   N - stocks are managed by quantity and value D - stocks are managed only by quantity  
+  Default value: N. |
 | `UnitOfMeasurement` | Item unit of measurement. |
 | `MassPerUnit` | Mass per unit. |
 | `ProductGroup` | class ProductGroup. Item product group. |
 | `VatRate` | class VatRate. Item VAT rate. |
 | `Price` | Item selling price. |
 | `RebatePercent` | Margin percent. |
-| `Usage` | Possible values: (D, N). Usage:   D – yes, N – no. |
+| `Usage` | Possible values: (D, N). Usage:
+   D – yes, N – no. |
 | `Currency` | class Currency. Selling price currency. |
-| `SerialNumbers` | Possible values: (D, N). SerialNumbers:   D – yes, N – no. |
-| `BatchNumbers` | Possible values: (D, N). BatchNumbers:   D – yes, N – no. |
+| `SerialNumbers` | Possible values: (D, N). SerialNumbers:
+   D – yes, N – no. |
+| `BatchNumbers` | Possible values: (D, N). BatchNumbers:
+   D – yes, N – no. |
 | `RevenueAccountDomestic` | class Account. Domestic market revenue account. |
 | `RevenueAccountEU` | class Account. Revenue account for EU markets. |
 | `RevenueAccountOutsideEU` | class Account. Revenue account outside EU markets. |
 | `StocksAccount` | class Account. Stock account. |
-| `ReliefByCompositeFromWarehouse` | Possible values: (D, N). Article relief by composite when issuing from warehouse:   D – yes, N – no. |
-| `ReliefByCompositeFromIssuedInvoice` | Possible values: (D, N). Article relief by composite from issued invoice:   D – yes, N – no. |
+| `ReliefByCompositeFromWarehouse` | Possible values: (D, N). Article relief by composite when issuing from warehouse:
+   D – yes, N – no. |
+| `ReliefByCompositeFromIssuedInvoice` | Possible values: (D, N). Article relief by composite from issued invoice:
+   D – yes, N – no. |
 | `Composite` | Composite rows. List of ItemComposite. |
 | `RecordDtModified` |  |
 | `RowVersion` | Row version is used for concurrency check. |
@@ -168,24 +179,32 @@ Returns an item with given code.
 | `Code` | Item code. |
 | `EANCode` | EAN code. |
 | `Description` | Item description. |
-| `ItemType` | Possible values: (B, M, P, I, S, A, AS). Item type:   B – Goods, M – Material, P - Semifinished product, I – Product, S – Services, A - Advance payment, AS - Pre payments for services |
-| `StocksManagedOnlyByQuantity` | Possible values: (D, N). Defines whether are stocks managed only by quantity.   N - stocks are managed by quantity and value D - stocks are managed only by quantity    Default value: N. |
+| `ItemType` | Possible values: (B, M, P, I, S, A, AS). Item type:
+   B – Goods, M – Material, P - Semifinished product, I – Product, S – Services, A - Advance payment, AS - Pre payments for services |
+| `StocksManagedOnlyByQuantity` | Possible values: (D, N). Defines whether are stocks managed only by quantity.
+   N - stocks are managed by quantity and value D - stocks are managed only by quantity  
+  Default value: N. |
 | `UnitOfMeasurement` | Item unit of measurement. |
 | `MassPerUnit` | Mass per unit. |
 | `ProductGroup` | class ProductGroup. Item product group. |
 | `VatRate` | class VatRate. Item VAT rate. |
 | `Price` | Item selling price. |
 | `RebatePercent` | Margin percent. |
-| `Usage` | Possible values: (D, N). Usage:   D – yes, N – no. |
+| `Usage` | Possible values: (D, N). Usage:
+   D – yes, N – no. |
 | `Currency` | class Currency. Selling price currency. |
-| `SerialNumbers` | Possible values: (D, N). SerialNumbers:   D – yes, N – no. |
-| `BatchNumbers` | Possible values: (D, N). BatchNumbers:   D – yes, N – no. |
+| `SerialNumbers` | Possible values: (D, N). SerialNumbers:
+   D – yes, N – no. |
+| `BatchNumbers` | Possible values: (D, N). BatchNumbers:
+   D – yes, N – no. |
 | `RevenueAccountDomestic` | class Account. Domestic market revenue account. |
 | `RevenueAccountEU` | class Account. Revenue account for EU markets. |
 | `RevenueAccountOutsideEU` | class Account. Revenue account outside EU markets. |
 | `StocksAccount` | class Account. Stock account. |
-| `ReliefByCompositeFromWarehouse` | Possible values: (D, N). Article relief by composite when issuing from warehouse:   D – yes, N – no. |
-| `ReliefByCompositeFromIssuedInvoice` | Possible values: (D, N). Article relief by composite from issued invoice:   D – yes, N – no. |
+| `ReliefByCompositeFromWarehouse` | Possible values: (D, N). Article relief by composite when issuing from warehouse:
+   D – yes, N – no. |
+| `ReliefByCompositeFromIssuedInvoice` | Possible values: (D, N). Article relief by composite from issued invoice:
+   D – yes, N – no. |
 | `Composite` | Composite rows. List of ItemComposite. |
 | `RecordDtModified` |  |
 | `RowVersion` | Row version is used for concurrency check. |

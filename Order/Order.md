@@ -6,6 +6,9 @@
 
 ---
 
+> ⚠️ **Neuradno** — to je kopija javno dostopne Minimax API dokumentacije, urejena za AI. Avtorske pravice do vsebine pripadajo **Minimax / Seyfor d.o.o.**; ta repozitorij ni uraden in ni licenciran. Merodajen je uradni vir. Glej [pravno obvestilo](../README.md).
+
+
 ## Pregled metod
 
 | # | HTTP | Metoda | Opis |
@@ -153,7 +156,8 @@ Returns an order.
 | Property | Description |
 | --- | --- |
 | `OrderId` | Order id. |
-| `ReceivedIssued` | Possible values: (P, I). Order type:   I – issued order, P – recieved order. |
+| `ReceivedIssued` | Possible values: (P, I). Order type:
+   I – issued order, P – recieved order. |
 | `Year` | Order year. Readonly. |
 | `Number` | Order number. Readonly. |
 | `Date` | Order date. |
@@ -178,10 +182,12 @@ Returns an order.
 | `DateConfirmed` | Order confirmation date. Readonly. |
 | `DateCompleted` | Order termination date. Readonly. |
 | `DateCanceled` | Order Invalidation date. Readonly. |
-| `Status` | Order status:   P – Confirmed, O – Draft, Z – Terminated, R - Invalidated  Readonly. |
+| `Status` | Order status:
+   P – Confirmed, O – Draft, Z – Terminated, R - Invalidated  Readonly. |
 | `DescriptionAbove` | The description that appears on order print above. |
 | `DescriptionBelow` | The description that appears on order print below. |
-| `ReportTemplate` | class ReportTemplate. Report settings for orders:   IN – for issued orders, PN – for received orders |
+| `ReportTemplate` | class ReportTemplate. Report settings for orders:
+   IN – for issued orders, PN – for received orders |
 | `OrderRows` | Order rows. List of OrderRow. |
 | `RecordDtModified` |  |
 | `RowVersion` | Row version is used for concurrency check. |

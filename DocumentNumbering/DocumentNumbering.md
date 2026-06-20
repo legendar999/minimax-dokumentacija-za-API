@@ -6,6 +6,9 @@
 
 ---
 
+> ⚠️ **Neuradno** — to je kopija javno dostopne Minimax API dokumentacije, urejena za AI. Avtorske pravice do vsebine pripadajo **Minimax / Seyfor d.o.o.**; ta repozitorij ni uraden in ni licenciran. Merodajen je uradni vir. Glej [pravno obvestilo](../README.md).
+
+
 ## Pregled metod
 
 | # | HTTP | Metoda | Opis |
@@ -45,9 +48,11 @@ Returns a document numbering for given id.
 | `Document` | Possible values: (IR, PD, PR). Document numbering codes.  IR – Issued invoice PD – Proforma invoice PR – Received invoice |
 | `Code` | Code. |
 | `Name` | Name. |
-| `Default` | Possible values: (D, N). Default:   D - Yes N - No |
+| `Default` | Possible values: (D, N). Default:
+   D - Yes N - No |
 | `ReferenceNumber` | Reference number used on invoices. |
-| `Usage` | Possible values: (D, N). Usage:   D - Yes N - No |
+| `Usage` | Possible values: (D, N). Usage:
+   D - Yes N - No |
 | `RecordDtModified` |  |
 | `RowVersion` | Row version is used for concurrency check. |
 

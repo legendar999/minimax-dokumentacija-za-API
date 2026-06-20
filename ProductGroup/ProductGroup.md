@@ -6,6 +6,9 @@
 
 ---
 
+> ⚠️ **Neuradno** — to je kopija javno dostopne Minimax API dokumentacije, urejena za AI. Avtorske pravice do vsebine pripadajo **Minimax / Seyfor d.o.o.**; ta repozitorij ni uraden in ni licenciran. Merodajen je uradni vir. Glej [pravno obvestilo](../README.md).
+
+
 ## Pregled metod
 
 | # | HTTP | Metoda | Opis |
@@ -110,7 +113,8 @@ Returns a product group.
 | `ProductGroupId` | ProductGroup id. |
 | `Code` | ProductGroup code. |
 | `Name` | ProductGroup name |
-| `Usage` | Usage:   D – Yes, N – No. |
+| `Usage` | Usage:
+   D – Yes, N – No. |
 | `RecordDtModified` |  |
 | `RowVersion` | Row version is used for concurrency check. |
 

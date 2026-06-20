@@ -6,6 +6,9 @@
 
 ---
 
+> ⚠️ **Neuradno** — to je kopija javno dostopne Minimax API dokumentacije, urejena za AI. Avtorske pravice do vsebine pripadajo **Minimax / Seyfor d.o.o.**; ta repozitorij ni uraden in ni licenciran. Merodajen je uradni vir. Glej [pravno obvestilo](../README.md).
+
+
 ## Pregled metod
 
 | # | HTTP | Metoda | Opis |
@@ -146,27 +149,44 @@ Returns an issued invoice posting.
 | Property | Description |
 | --- | --- |
 | `IssuedInvoicePostingId` | Issued invoice posting id. |
-| `DocumentType` | Document type:   IZT - daily income IRI - daily income invoice (used for VAT reporting purpuses to additionaly specify VAT, payments, taxes and revenues already included in daily income) IRS - issued invoice AVA - advance payment |
-| `Status` | Status:   O – draft, P - confirmed  Readonly. |
-| `Customer` | class Customer. Required and only available on document types:   daily income invoice issued invoice advance payment |
-| `DateTransaction` | Date of transaction. Required and only available on document types:   issued invoice advance payment |
-| `DateDue` | Invoice due date. Required and only available on document types:   issued invoice |
-| `PaymentReference` | Payment reference. Only available on document types:   issued invoice |
+| `DocumentType` | Document type:
+   IZT - daily income IRI - daily income invoice (used for VAT reporting purpuses to additionaly specify VAT, payments, taxes and revenues already included in daily income) IRS - issued invoice AVA - advance payment |
+| `Status` | Status:
+   O – draft, P - confirmed  Readonly. |
+| `Customer` | class Customer. Required and only available on document types:
+   daily income invoice issued invoice advance payment |
+| `DateTransaction` | Date of transaction. Required and only available on document types:
+   issued invoice advance payment |
+| `DateDue` | Invoice due date. Required and only available on document types:
+   issued invoice |
+| `PaymentReference` | Payment reference. Only available on document types:
+   issued invoice |
 | `Analytic` | class Analytic. Analytic. |
 | `Date` | Document date. |
 | `Description` | Document. |
 | `Currency` | class Currency. Default = home currency. |
 | `ExchangeRate` | Default = 1. |
-| `ForwardToSEF` | Only for Minimax RS organisations that send data to eFaktura.  Forwarding VAT data to SEF  Options:   Zbirno - Group Posamicno - Individual |
-| `SalesValue` | Sales value (without VAT) to be posted for retail. Should be supplied when posting for branch office of type:   Retail shop - Value retail trade Retail shop - Decoupled |
-| `SalesValueVAT` | Sales VAT to be posted for retail. Should be supplied when posting for branch office of type:   Retail shop - Value retail trade Retail shop - Decoupled |
-| `PurchaseValue` | Purchase value to be posted for retail. Should be supplied when posting for branch office of type:   Retail shop - Value retail trade |
-| `IssuedInvoicePostingPaymentMethods` | Payment methods. Only available on document types:   daily income issued invoice  List of IssuedInvoicePostingPaymentMethod. |
+| `ForwardToSEF` | Only for Minimax RS organisations that send data to eFaktura.
+  Forwarding VAT data to SEF
+  Options:
+   Zbirno - Group Posamicno - Individual |
+| `SalesValue` | Sales value (without VAT) to be posted for retail. Should be supplied when posting for branch office of type:
+   Retail shop - Value retail trade Retail shop - Decoupled |
+| `SalesValueVAT` | Sales VAT to be posted for retail. Should be supplied when posting for branch office of type:
+   Retail shop - Value retail trade Retail shop - Decoupled |
+| `PurchaseValue` | Purchase value to be posted for retail. Should be supplied when posting for branch office of type:
+   Retail shop - Value retail trade |
+| `IssuedInvoicePostingPaymentMethods` | Payment methods. Only available on document types:
+   daily income issued invoice  List of IssuedInvoicePostingPaymentMethod. |
 | `IssuedInvoicePostingTaxes` | Taxes. List of IssuedInvoicePostingTax. |
-| `IssuedInvoicePostingRevenues` | Revenues. Only available on document types:   daily income issued invoice  List of IssuedInvoicePostingRevenue. |
-| `IssuedInvoicePostingRetailDataForBookkeeping` | Retail data for bookkeeping. Only available on document types:   daily income issued invoice  class IssuedInvoicePostingRetailDataForBookkeeping. |
-| `IssuedInvoicePostingRetailDataForValueBasedStockManagement` | Retail data for value based stock management. Only available on document types:   daily income issued invoice  class IssuedInvoicePostingRetailDataForValueBasedStockManagement. |
-| `IssuedInvoicePostingRetailDataForStockManagement` | Retail data for stock management. Only available on document types:   daily income issued invoice  class IssuedInvoicePostingRetailDataForStockManagement. |
+| `IssuedInvoicePostingRevenues` | Revenues. Only available on document types:
+   daily income issued invoice  List of IssuedInvoicePostingRevenue. |
+| `IssuedInvoicePostingRetailDataForBookkeeping` | Retail data for bookkeeping. Only available on document types:
+   daily income issued invoice  class IssuedInvoicePostingRetailDataForBookkeeping. |
+| `IssuedInvoicePostingRetailDataForValueBasedStockManagement` | Retail data for value based stock management. Only available on document types:
+   daily income issued invoice  class IssuedInvoicePostingRetailDataForValueBasedStockManagement. |
+| `IssuedInvoicePostingRetailDataForStockManagement` | Retail data for stock management. Only available on document types:
+   daily income issued invoice  class IssuedInvoicePostingRetailDataForStockManagement. |
 | `RecordDtModified` |  |
 | `RowVersion` | Row version is used for concurrency check. |
 

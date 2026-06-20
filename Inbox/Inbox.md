@@ -6,6 +6,9 @@
 
 ---
 
+> ⚠️ **Neuradno** — to je kopija javno dostopne Minimax API dokumentacije, urejena za AI. Avtorske pravice do vsebine pripadajo **Minimax / Seyfor d.o.o.**; ta repozitorij ni uraden in ni licenciran. Merodajen je uradni vir. Glej [pravno obvestilo](../README.md).
+
+
 ## Pregled metod
 
 | # | HTTP | Metoda | Opis |
@@ -221,9 +224,11 @@ Returns the specified inbox item.
 | `Customer` | class Customer. Customer. |
 | `Employee` | class Employee. Employee. |
 | `InboxDate` | Inbox date. |
-| `InboxType` | Inbox type:   PR - for received invoice IZP - for bank statements Ostalo - for other types Neznano - for unknown types |
+| `InboxType` | Inbox type:
+   PR - for received invoice IZP - for bank statements Ostalo - for other types Neznano - for unknown types |
 | `Description` | Description |
-| `StatusOfReceivedInvoice` | Status of recived invoice:   Zavrnjen – Rejected Storniran – Revoked Odobren – Approved Preklican – Canceled   Readonly. |
+| `StatusOfReceivedInvoice` | Status of recived invoice:
+   Zavrnjen – Rejected Storniran – Revoked Odobren – Approved Preklican – Canceled   Readonly. |
 | `BookkeepingAllowed` | Defines if received invoice has allowed bookkepping even though it is not Approved. Readonly. |
 | `EProvider` | Provider of the electronic route. Readonly. |
 | `Attachments` | Inbox attachments. List of InboxAttachment. |

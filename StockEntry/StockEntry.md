@@ -6,6 +6,9 @@
 
 ---
 
+> ⚠️ **Neuradno** — to je kopija javno dostopne Minimax API dokumentacije, urejena za AI. Avtorske pravice do vsebine pripadajo **Minimax / Seyfor d.o.o.**; ta repozitorij ni uraden in ni licenciran. Merodajen je uradni vir. Glej [pravno obvestilo](../README.md).
+
+
 ## Pregled metod
 
 | # | HTTP | Metoda | Opis |
@@ -183,8 +186,10 @@ Returns stock entry.
 | Property | Description |
 | --- | --- |
 | `StockEntryId` | Stock entry id. |
-| `StockEntryType` | Stock entry type:   P - Receipt I - Issue L - Own use |
-| `StockEntrySubtype` | Stock entry subtype:   S – Suplier/Client P – Production L - Storage R – Storage to Client/Supplier |
+| `StockEntryType` | Stock entry type:
+   P - Receipt I - Issue L - Own use |
+| `StockEntrySubtype` | Stock entry subtype:
+   S – Suplier/Client P – Production L - Storage R – Storage to Client/Supplier |
 | `Date` | Stock entry date. |
 | `Number` | Stock entry number. Readonly. |
 | `Customer` | class Customer. Customer. |
@@ -197,9 +202,13 @@ Returns stock entry.
 | `ValueOfReceipt` | Value of receipt. |
 | `Currency` | class Currency. Currency. |
 | `ExchangeRate` | Exchange rate. |
-| `OriginalDocumentType` | Only for miniMAX SI  Source document type for e-delivery note:   AAK – delivery note ON - purchase order VN – sales order |
-| `OriginalDocumentDate` | Only for miniMAX SI  Source document date for e-delivery note |
-| `DeliveryNoteReportTemplate` | class ReportTemplate. Report settings for delivery note:   DO – for delivery note |
+| `OriginalDocumentType` | Only for miniMAX SI
+  Source document type for e-delivery note:
+   AAK – delivery note ON - purchase order VN – sales order |
+| `OriginalDocumentDate` | Only for miniMAX SI
+  Source document date for e-delivery note |
+| `DeliveryNoteReportTemplate` | class ReportTemplate. Report settings for delivery note:
+   DO – for delivery note |
 | `DeliveryNoteDescriptionAbove` | The description that appears on delivery note above. |
 | `DeliveryNoteDescriptionBelow` | The description that appears on delivery note below. |
 | `AddresseeName` | Addressee name. |
@@ -216,9 +225,11 @@ Returns stock entry.
 | `RecipientCity` | Recipient city. |
 | `RecipientCountryName` | Recipient country name. Prohibited use when RecipientCountry is set as home country. |
 | `RecipientCountry` | class Country. Recipient country. |
-| `Status` | Stock entry status:   P – Confirmed, O – Draft |
+| `Status` | Stock entry status:
+   P – Confirmed, O – Draft |
 | `Account` | class Account. Account. |
-| `AssociationWithIssuedInvoice` | Association With Issued invoice:   N – no D – yes |
+| `AssociationWithIssuedInvoice` | Association With Issued invoice:
+   N – no D – yes |
 | `StockEntryRows` | Stock entry rows. List of StockEntryRow. |
 | `RecordDtModified` |  |
 | `RowVersion` | Row version is used for concurrency check. |

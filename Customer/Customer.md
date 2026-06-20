@@ -6,6 +6,9 @@
 
 ---
 
+> ⚠️ **Neuradno** — to je kopija javno dostopne Minimax API dokumentacije, urejena za AI. Avtorske pravice do vsebine pripadajo **Minimax / Seyfor d.o.o.**; ta repozitorij ni uraden in ni licenciran. Merodajen je uradni vir. Glej [pravno obvestilo](../README.md).
+
+
 ## Pregled metod
 
 | # | HTTP | Metoda | Opis |
@@ -151,17 +154,25 @@ Returns a customer.
 | `TaxNumber` | Customer tax number. |
 | `RegistrationNumber` | Customer registration number. |
 | `VATIdentificationNumber` | Customer VAT Identification Number. |
-| `SubjectToVAT` | Possible values: (D, M, N). Customer VAT settings.  For EU customers:   D - Legal person or a person with business who is subject to VAT, M - Legal person or a person with business who is NOT subject to VAT, N – Enduser.   For customers outside EU:   D - Legal person (VAT on the issued invoice is not to be accounted for), N – Enduser. |
-| `ConsiderCountryForBookkeeping` | Possible values: (D, N). Take customers country into account for bookkeeping (Foreign endusers only).  Usage:   D - Yes, N - No. |
+| `SubjectToVAT` | Possible values: (D, M, N). Customer VAT settings.
+  For EU customers:
+   D - Legal person or a person with business who is subject to VAT, M - Legal person or a person with business who is NOT subject to VAT, N – Enduser. 
+  For customers outside EU:
+   D - Legal person (VAT on the issued invoice is not to be accounted for), N – Enduser. |
+| `ConsiderCountryForBookkeeping` | Possible values: (D, N). Take customers country into account for bookkeeping (Foreign endusers only).
+  Usage:
+   D - Yes, N - No. |
 | `Currency` | class Currency. Default currency. |
 | `ExpirationDays` | Invoice expiration days. |
 | `RebatePercent` | Rebate (%) |
 | `WebSiteURL` | Web site. |
-| `EInvoiceIssuing` | Possible values: (SeNePripravlja, RocniIzvoz, Ponudnik, EPosta). e-Invoices issuing type:    SeNePripravlja - None(won't be prepared) RocniIzvoz - Import to bank Ponudnik -Import to ZZInet EPosta - Send by email |
+| `EInvoiceIssuing` | Possible values: (SeNePripravlja, RocniIzvoz, Ponudnik, EPosta). e-Invoices issuing type: 
+   SeNePripravlja - None(won't be prepared) RocniIzvoz - Import to bank Ponudnik -Import to ZZInet EPosta - Send by email |
 | `InternalCustomerNumber` | Internal reference for e-invoices. |
 | `GLN` | GLN |
 | `BudgetUserNumber` |  |
-| `Usage` | Possible values: (D, N). Usage:   D - Yes, N - No. |
+| `Usage` | Possible values: (D, N). Usage:
+   D - Yes, N - No. |
 | `AssociationType` | Possible values: (Maticna, Odvisna, Ostala). |
 | `RecordDtModified` |  |
 | `RowVersion` | Row version is used for concurrency check. |
@@ -198,17 +209,25 @@ Returns a customer with given code.
 | `TaxNumber` | Customer tax number. |
 | `RegistrationNumber` | Customer registration number. |
 | `VATIdentificationNumber` | Customer VAT Identification Number. |
-| `SubjectToVAT` | Possible values: (D, M, N). Customer VAT settings.  For EU customers:   D - Legal person or a person with business who is subject to VAT, M - Legal person or a person with business who is NOT subject to VAT, N – Enduser.   For customers outside EU:   D - Legal person (VAT on the issued invoice is not to be accounted for), N – Enduser. |
-| `ConsiderCountryForBookkeeping` | Possible values: (D, N). Take customers country into account for bookkeeping (Foreign endusers only).  Usage:   D - Yes, N - No. |
+| `SubjectToVAT` | Possible values: (D, M, N). Customer VAT settings.
+  For EU customers:
+   D - Legal person or a person with business who is subject to VAT, M - Legal person or a person with business who is NOT subject to VAT, N – Enduser. 
+  For customers outside EU:
+   D - Legal person (VAT on the issued invoice is not to be accounted for), N – Enduser. |
+| `ConsiderCountryForBookkeeping` | Possible values: (D, N). Take customers country into account for bookkeeping (Foreign endusers only).
+  Usage:
+   D - Yes, N - No. |
 | `Currency` | class Currency. Default currency. |
 | `ExpirationDays` | Invoice expiration days. |
 | `RebatePercent` | Rebate (%) |
 | `WebSiteURL` | Web site. |
-| `EInvoiceIssuing` | Possible values: (SeNePripravlja, RocniIzvoz, Ponudnik, EPosta). e-Invoices issuing type:    SeNePripravlja - None(won't be prepared) RocniIzvoz - Import to bank Ponudnik -Import to ZZInet EPosta - Send by email |
+| `EInvoiceIssuing` | Possible values: (SeNePripravlja, RocniIzvoz, Ponudnik, EPosta). e-Invoices issuing type: 
+   SeNePripravlja - None(won't be prepared) RocniIzvoz - Import to bank Ponudnik -Import to ZZInet EPosta - Send by email |
 | `InternalCustomerNumber` | Internal reference for e-invoices. |
 | `GLN` | GLN |
 | `BudgetUserNumber` |  |
-| `Usage` | Possible values: (D, N). Usage:   D - Yes, N - No. |
+| `Usage` | Possible values: (D, N). Usage:
+   D - Yes, N - No. |
 | `AssociationType` | Possible values: (Maticna, Odvisna, Ostala). |
 | `RecordDtModified` |  |
 | `RowVersion` | Row version is used for concurrency check. |

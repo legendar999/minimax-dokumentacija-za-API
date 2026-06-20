@@ -6,6 +6,9 @@
 
 ---
 
+> ⚠️ **Neuradno** — to je kopija javno dostopne Minimax API dokumentacije, urejena za AI. Avtorske pravice do vsebine pripadajo **Minimax / Seyfor d.o.o.**; ta repozitorij ni uraden in ni licenciran. Merodajen je uradni vir. Glej [pravno obvestilo](../README.md).
+
+
 ## Pregled metod
 
 | # | HTTP | Metoda | Opis |
@@ -226,28 +229,40 @@ Returns an issued invoice.
 | `Currency` | class Currency. Currency. |
 | `Analytic` | class Analytic. Analytic. |
 | `Document` | class Document. Document. Readonly. |
-| `IssuedInvoiceReportTemplate` | class ReportTemplate. Report settings for issued invoices:   IR – for issued invoice, DP – for credit note, UP – for issued invoice with order for payment.   Report settings for proforma invoices:   PR – for proforma invoice, PUPN – for proforma invoice with order for payment. |
-| `DeliveryNoteReportTemplate` | class ReportTemplate. Report settings for delivery note:   DO – for delivery note |
-| `Status` | Issued invoice and proforma invoice status:   O – Draft, I - Issued  Readonly. |
+| `IssuedInvoiceReportTemplate` | class ReportTemplate. Report settings for issued invoices:
+   IR – for issued invoice, DP – for credit note, UP – for issued invoice with order for payment. 
+  Report settings for proforma invoices:
+   PR – for proforma invoice, PUPN – for proforma invoice with order for payment. |
+| `DeliveryNoteReportTemplate` | class ReportTemplate. Report settings for delivery note:
+   DO – for delivery note |
+| `Status` | Issued invoice and proforma invoice status:
+   O – Draft, I - Issued  Readonly. |
 | `DescriptionAbove` | The description that appears on issued invoice and proforma invoice above. |
 | `DescriptionBelow` | The description that appears on issued invoice and proforma invoice below. |
 | `DeliveryNoteDescriptionAbove` | The description that appears on delivery note above. |
 | `DeliveryNoteDescriptionBelow` | The description that appears on delivery note below. |
 | `Notes` | Notes. |
 | `Employee` | class Employee. Employee. |
-| `PricesOnInvoice` | Price calculation type(VAT):   D - VAT is included in the price N - VAT is added to the prices |
-| `RecurringInvoice` | Recurring Invoice:   D – yes, N – no. |
-| `InvoiceForPeriod` | Invoice for period:   D – yes, N – no. |
+| `PricesOnInvoice` | Price calculation type(VAT):
+   D - VAT is included in the price N - VAT is added to the prices |
+| `RecurringInvoice` | Recurring Invoice:
+   D – yes, N – no. |
+| `InvoiceForPeriod` | Invoice for period:
+   D – yes, N – no. |
 | `InvoiceAttachment` | class DocumentAttachment. Invoice attachment (PDF invoice document). |
 | `EInvoiceAttachment` | class DocumentAttachment. e-invoice XML file. |
-| `InvoiceType` | Input type:   R – issued invoice, P – proforma invoice. |
-| `OriginalDocumentType` | Source document type for e-invoice:   IV - invoice AAB – proforma invoice AAK – delivery note CD – credit note CT - contract ON - purchase order VN - sales order AEP - project ALO - recipient GC - public tender ATS - object |
+| `InvoiceType` | Input type:
+   R – issued invoice, P – proforma invoice. |
+| `OriginalDocumentType` | Source document type for e-invoice:
+   IV - invoice AAB – proforma invoice AAK – delivery note CD – credit note CT - contract ON - purchase order VN - sales order AEP - project ALO - recipient GC - public tender ATS - object |
 | `OriginalDocumentDate` | Source document date for e-invoice. |
 | `PurposeCode` | class PurposeCode. Purpose code for e-invoice and invoice with order for payment. |
-| `PaymentStatus` | Payment status:   Placan – Paid DelnoPlacanZapadel – Partially paid, Overdue DelnoPlacanNezapadel – Partially paid, Not yet due NeplacanZapadel – Unpaid, Overdue NeplacanNezapadel – Unpaid, Not yet due Osnutek – Draft Avans – Advance payment  Readonly. |
+| `PaymentStatus` | Payment status:
+   Placan – Paid DelnoPlacanZapadel – Partially paid, Overdue DelnoPlacanNezapadel – Partially paid, Not yet due NeplacanZapadel – Unpaid, Overdue NeplacanNezapadel – Unpaid, Not yet due Osnutek – Draft Avans – Advance payment  Readonly. |
 | `InvoiceValue` | Invoice value (domestic currency). Readonly. |
 | `PaidValue` | Paid value (domestic currency). Readonly. |
-| `AssociationWithStock` | Association With Issue From Stock:   N – no D – yes |
+| `AssociationWithStock` | Association With Issue From Stock:
+   N – no D – yes |
 | `IssuedInvoiceRows` | Invoice rows. List of IssuedInvoiceRow. |
 | `IssuedInvoicePaymentMethods` | Payment methods. List of IssuedInvoicePaymentMethod. |
 | `IssuedInvoiceAdditionalSourceDocument` | Additional source documents. List of IssuedInvoiceAdditionalSourceDocument. |

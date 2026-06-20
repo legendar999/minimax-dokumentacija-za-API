@@ -6,6 +6,9 @@
 
 ---
 
+> ⚠️ **Neuradno** — to je kopija javno dostopne Minimax API dokumentacije, urejena za AI. Avtorske pravice do vsebine pripadajo **Minimax / Seyfor d.o.o.**; ta repozitorij ni uraden in ni licenciran. Merodajen je uradni vir. Glej [pravno obvestilo](../README.md).
+
+
 ## Pregled metod
 
 | # | HTTP | Metoda | Opis |
@@ -183,7 +186,8 @@ Returns a journal.
 | `JournalType` | class JournalType. Journal type. |
 | `JournalDate` | Journal date. |
 | `Description` | Journal description. |
-| `Status` | Journal status:   O - Draft P - Confirmed A - Automatic  Readonly. |
+| `Status` | Journal status:
+   O - Draft P - Confirmed A - Automatic  Readonly. |
 | `JournalEntries` | Journal entries. List of JournalEntry. |
 | `VatEntries` | Vat entries. List of VATEntry. |
 | `RecordDtModified` |  |
@@ -248,7 +252,8 @@ Returns all journals for given organisation.
 | `JournalId` | JournalId from. |
 | `JournalType` | Journal type. |
 | `Description` | Journal description. |
-| `Status` | Journal status:   O - Draft P - Confirmed A - Automatic |
+| `Status` | Journal status:
+   O - Draft P - Confirmed A - Automatic |
 | `CurrentPage` | Current page index starting with 1 for first page. |
 | `PageSize` | Page size defines number of records returned per page. |
 | `SortField` | Field name that is used for sorting/ordering result rows. |
@@ -351,7 +356,8 @@ Returns a VAT entry.
 | `VatEntryId` | VAT entry id. |
 | `Journal` | class Journal. Journal. |
 | `VatDate` | VAT date. |
-| `VatBook` | Possible values: (IR, PR). VAT book:   PR - Received invoices book, IR - Issued invoices book |
+| `VatBook` | Possible values: (IR, PR). VAT book:
+   PR - Received invoices book, IR - Issued invoices book |
 | `VatAccountingType` | VAT accounting type. |
 | `VatEntryDate` | VAT entry date. |
 | `Customer` | class Customer. Customer. |
@@ -360,12 +366,15 @@ Returns a VAT entry.
 | `ReceivedDate` | Received date. |
 | `PaymentDate` | Payment date. |
 | `TransactionDate` | Transaction date. |
-| `SelfTaxing` | Self-taxing:   D – yes, N – no. |
+| `SelfTaxing` | Self-taxing:
+   D – yes, N – no. |
 | `JournalEntry` | class JournalEntry. Journal entry. |
 | `JournalEntryExternalId` | Journal entry external ID. |
 | `Notes` | Notes. |
-| `AdvancePayment` | Advance payment:   D – yes, N – no. |
-| `ReportingType` | Reporting Type:   Obracun - (1) regular VAT report Samoprijava - (2) VAT correction or self report SamoprijavaObresti - (3) interests from VAT correction or self report |
+| `AdvancePayment` | Advance payment:
+   D – yes, N – no. |
+| `ReportingType` | Reporting Type:
+   Obracun - (1) regular VAT report Samoprijava - (2) VAT correction or self report SamoprijavaObresti - (3) interests from VAT correction or self report |
 | `Analytic` | class Analytic. Analytic. |
 | `VatEntryRows` | VAT entry rows. List of VATEntryRow. |
 | `RecordDtModified` |  |

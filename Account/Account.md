@@ -6,6 +6,9 @@
 
 ---
 
+> ⚠️ **Neuradno** — to je kopija javno dostopne Minimax API dokumentacije, urejena za AI. Avtorske pravice do vsebine pripadajo **Minimax / Seyfor d.o.o.**; ta repozitorij ni uraden in ni licenciran. Merodajen je uradni vir. Glej [pravno obvestilo](../README.md).
+
+
 ## Pregled metod
 
 | # | HTTP | Metoda | Opis |
@@ -53,13 +56,20 @@ Returns an account.
 | `NameInOtherLanguage` | Other language account name. |
 | `NameInEnglish` | English account name. |
 | `Description` | Account description. |
-| `AllowedPosting` | Possible values: (V, B, D, N). Posting side:    V – debit and credit, B – only debit, D – only credit, N – Posting is not allowed. |
-| `InvoiceAccounting` | Possible values: (N, B, D). Account posting:    N – No account, B – debit D – credit |
-| `AnalyticsEntry` | Possible values: (V, N, D). Analytics entry:   V – Input allowed, N – Input not allowed, D – Mandatory input. |
-| `EmployeeEntry` | Employee entry:   V – Input allowed, N – Input not allowed, D – Mandatory input. |
-| `CustomerEntry` | Possible values: (V, N, D). Customer entry:   V – Input allowed, N – Input not allowed, D – Mandatory input. |
-| `NonTaxable` | Possible values: (D, N). Unrecognized account in terms of tax:   N – No, D – Yes. |
-| `Application` | Possible values: (D, N). Application:   N – No, D – Yes. |
+| `AllowedPosting` | Possible values: (V, B, D, N). Posting side: 
+   V – debit and credit, B – only debit, D – only credit, N – Posting is not allowed. |
+| `InvoiceAccounting` | Possible values: (N, B, D). Account posting: 
+   N – No account, B – debit D – credit |
+| `AnalyticsEntry` | Possible values: (V, N, D). Analytics entry:
+   V – Input allowed, N – Input not allowed, D – Mandatory input. |
+| `EmployeeEntry` | Employee entry:
+   V – Input allowed, N – Input not allowed, D – Mandatory input. |
+| `CustomerEntry` | Possible values: (V, N, D). Customer entry:
+   V – Input allowed, N – Input not allowed, D – Mandatory input. |
+| `NonTaxable` | Possible values: (D, N). Unrecognized account in terms of tax:
+   N – No, D – Yes. |
+| `Application` | Possible values: (D, N). Application:
+   N – No, D – Yes. |
 | `ValidFromYear` | Account validity from year. Readonly. |
 | `ValidToYear` | Account validity to year. Readonly. |
 | `RecordDtModified` |  |
@@ -92,13 +102,20 @@ Returns an account for its code.
 | `NameInOtherLanguage` | Other language account name. |
 | `NameInEnglish` | English account name. |
 | `Description` | Account description. |
-| `AllowedPosting` | Possible values: (V, B, D, N). Posting side:    V – debit and credit, B – only debit, D – only credit, N – Posting is not allowed. |
-| `InvoiceAccounting` | Possible values: (N, B, D). Account posting:    N – No account, B – debit D – credit |
-| `AnalyticsEntry` | Possible values: (V, N, D). Analytics entry:   V – Input allowed, N – Input not allowed, D – Mandatory input. |
-| `EmployeeEntry` | Employee entry:   V – Input allowed, N – Input not allowed, D – Mandatory input. |
-| `CustomerEntry` | Possible values: (V, N, D). Customer entry:   V – Input allowed, N – Input not allowed, D – Mandatory input. |
-| `NonTaxable` | Possible values: (D, N). Unrecognized account in terms of tax:   N – No, D – Yes. |
-| `Application` | Possible values: (D, N). Application:   N – No, D – Yes. |
+| `AllowedPosting` | Possible values: (V, B, D, N). Posting side: 
+   V – debit and credit, B – only debit, D – only credit, N – Posting is not allowed. |
+| `InvoiceAccounting` | Possible values: (N, B, D). Account posting: 
+   N – No account, B – debit D – credit |
+| `AnalyticsEntry` | Possible values: (V, N, D). Analytics entry:
+   V – Input allowed, N – Input not allowed, D – Mandatory input. |
+| `EmployeeEntry` | Employee entry:
+   V – Input allowed, N – Input not allowed, D – Mandatory input. |
+| `CustomerEntry` | Possible values: (V, N, D). Customer entry:
+   V – Input allowed, N – Input not allowed, D – Mandatory input. |
+| `NonTaxable` | Possible values: (D, N). Unrecognized account in terms of tax:
+   N – No, D – Yes. |
+| `Application` | Possible values: (D, N). Application:
+   N – No, D – Yes. |
 | `ValidFromYear` | Account validity from year. Readonly. |
 | `ValidToYear` | Account validity to year. Readonly. |
 | `RecordDtModified` |  |
@@ -119,7 +136,22 @@ Returns an account for the corresponding content (based on Organization settings
 | Property | Description |
 | --- | --- |
 | `organisationId` | organisation id |
-| `content` | Describes an Account by its content. Supported values:  OtherRevenues,  FinancialRevenue,  RevenueFromSellingGoodsInHomeCountry,  RevenueFromSellingGoodsInEU,  RevenueFromSellingGoodsInThirdCountries,  RevenueFromSellingProductsInHomeCountry,  RevenueFromSellingProductsInEU,  RevenueFromSellingProductsInThirdCountries,  RevenueFromSellingMaterialsInHomeCountry,  RevenueFromSellingMaterialsInEU,  RevenueFromSellingMaterialsInThirdCountries,  RevenueFromSellingServicesInHomeCountry,  RevenueFromSellingServicesInEU,  RevenueFromSellingServicesInThirdCountries,  RevenueFromExchangeRateDifferences |
+| `content` | Describes an Account by its content. Supported values:
+  OtherRevenues,
+  FinancialRevenue,
+  RevenueFromSellingGoodsInHomeCountry,
+  RevenueFromSellingGoodsInEU,
+  RevenueFromSellingGoodsInThirdCountries,
+  RevenueFromSellingProductsInHomeCountry,
+  RevenueFromSellingProductsInEU,
+  RevenueFromSellingProductsInThirdCountries,
+  RevenueFromSellingMaterialsInHomeCountry,
+  RevenueFromSellingMaterialsInEU,
+  RevenueFromSellingMaterialsInThirdCountries,
+  RevenueFromSellingServicesInHomeCountry,
+  RevenueFromSellingServicesInEU,
+  RevenueFromSellingServicesInThirdCountries,
+  RevenueFromExchangeRateDifferences |
 
 #### Response lastnosti
 
@@ -131,13 +163,20 @@ Returns an account for the corresponding content (based on Organization settings
 | `NameInOtherLanguage` | Other language account name. |
 | `NameInEnglish` | English account name. |
 | `Description` | Account description. |
-| `AllowedPosting` | Possible values: (V, B, D, N). Posting side:    V – debit and credit, B – only debit, D – only credit, N – Posting is not allowed. |
-| `InvoiceAccounting` | Possible values: (N, B, D). Account posting:    N – No account, B – debit D – credit |
-| `AnalyticsEntry` | Possible values: (V, N, D). Analytics entry:   V – Input allowed, N – Input not allowed, D – Mandatory input. |
-| `EmployeeEntry` | Employee entry:   V – Input allowed, N – Input not allowed, D – Mandatory input. |
-| `CustomerEntry` | Possible values: (V, N, D). Customer entry:   V – Input allowed, N – Input not allowed, D – Mandatory input. |
-| `NonTaxable` | Possible values: (D, N). Unrecognized account in terms of tax:   N – No, D – Yes. |
-| `Application` | Possible values: (D, N). Application:   N – No, D – Yes. |
+| `AllowedPosting` | Possible values: (V, B, D, N). Posting side: 
+   V – debit and credit, B – only debit, D – only credit, N – Posting is not allowed. |
+| `InvoiceAccounting` | Possible values: (N, B, D). Account posting: 
+   N – No account, B – debit D – credit |
+| `AnalyticsEntry` | Possible values: (V, N, D). Analytics entry:
+   V – Input allowed, N – Input not allowed, D – Mandatory input. |
+| `EmployeeEntry` | Employee entry:
+   V – Input allowed, N – Input not allowed, D – Mandatory input. |
+| `CustomerEntry` | Possible values: (V, N, D). Customer entry:
+   V – Input allowed, N – Input not allowed, D – Mandatory input. |
+| `NonTaxable` | Possible values: (D, N). Unrecognized account in terms of tax:
+   N – No, D – Yes. |
+| `Application` | Possible values: (D, N). Application:
+   N – No, D – Yes. |
 | `ValidFromYear` | Account validity from year. Readonly. |
 | `ValidToYear` | Account validity to year. Readonly. |
 | `RecordDtModified` |  |

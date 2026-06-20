@@ -6,6 +6,9 @@
 
 ---
 
+> ⚠️ **Neuradno** — to je kopija javno dostopne Minimax API dokumentacije, urejena za AI. Avtorske pravice do vsebine pripadajo **Minimax / Seyfor d.o.o.**; ta repozitorij ni uraden in ni licenciran. Merodajen je uradni vir. Glej [pravno obvestilo](../README.md).
+
+
 ## Pregled metod
 
 | # | HTTP | Metoda | Opis |
@@ -179,18 +182,23 @@ Returns a received invoice.
 | `DateReceived` | Received date |
 | `InvoiceAmount` | Amount of invoice |
 | `InvoiceAmountDomesticCurrency` | Amount of invoice in domestic currency |
-| `Status` | Received invoice status:   P – Confirmed, O – Draft, Z - Rejected,  Readonly. |
+| `Status` | Received invoice status:
+   P – Confirmed, O – Draft, Z - Rejected,  Readonly. |
 | `BankAccount` | class BankAccount. Customer Bank Account |
-| `PaymentReferenceType` | Payment Reference Type:   SI, RF, |
+| `PaymentReferenceType` | Payment Reference Type:
+   SI, RF, |
 | `PaymentReferenceModel` | Payment reference model |
 | `PaymentReferenceNumber` | Payment reference number |
 | `Notes` | Notes |
-| `PaymentType` | Payment type:   D – Payment order, N – No payment order, Z – Paid by private undertaking, P – Paid by employee, R – Using another account, B – Cash book, |
+| `PaymentType` | Payment type:
+   D – Payment order, N – No payment order, Z – Paid by private undertaking, P – Paid by employee, R – Using another account, B – Cash book, |
 | `RevenueExpense` | Expense when paid by cash book |
 | `CashRegister` | Cash register when paid by cash book |
 | `DateExpense` | Date of expense when paid by cash book |
-| `RecurringInvoice` | Recurring Invoice:   D – yes, N – no, |
-| `PaymentStatus` | Payment status:   Placan – Paid, DelnoPlacanZapadel – Partially paid, Overdue DelnoPlacanNezapadel – Partially paid, Not yet due NeplacanZapadel – Unpaid, Overdue, NeplacanNezapadel – Unpaid, Not yet due Osnutek – Draft, Avans – Advance payment  Readonly. |
+| `RecurringInvoice` | Recurring Invoice:
+   D – yes, N – no, |
+| `PaymentStatus` | Payment status:
+   Placan – Paid, DelnoPlacanZapadel – Partially paid, Overdue DelnoPlacanNezapadel – Partially paid, Not yet due NeplacanZapadel – Unpaid, Overdue, NeplacanNezapadel – Unpaid, Not yet due Osnutek – Draft, Avans – Advance payment  Readonly. |
 | `InvoiceValue` | Invoice value Readonly. |
 | `PaidValue` | Paid value Readonly. |
 | `RecordDtModified` |  |

@@ -6,6 +6,9 @@
 
 ---
 
+> ⚠️ **Neuradno** — to je kopija javno dostopne Minimax API dokumentacije, urejena za AI. Avtorske pravice do vsebine pripadajo **Minimax / Seyfor d.o.o.**; ta repozitorij ni uraden in ni licenciran. Merodajen je uradni vir. Glej [pravno obvestilo](../README.md).
+
+
 ## Pregled metod
 
 | # | HTTP | Metoda | Opis |
@@ -45,8 +48,10 @@ Returns a report template.
 | --- | --- |
 | `ReportTemplateId` | Report template id. |
 | `Name` | Report template name. |
-| `DisplayType` | Report template display type:   BB - Gross balance BK - Compensation DN - Work order DO - Delivery note DOP - Calculation sheet DP – credit note IN – Issued order IO – Open items report IR – Issued invoice OP - Payment reminder PL - Salaries, payslips PN – Received order confirmation PUPN – proforma invoice with order for payment UP - Issued invoice with order for payment ZO - Interest for delay. |
-| `Default` | Default report template:   D - Yes, N - No. |
+| `DisplayType` | Report template display type:
+   BB - Gross balance BK - Compensation DN - Work order DO - Delivery note DOP - Calculation sheet DP – credit note IN – Issued order IO – Open items report IR – Issued invoice OP - Payment reminder PL - Salaries, payslips PN – Received order confirmation PUPN – proforma invoice with order for payment UP - Issued invoice with order for payment ZO - Interest for delay. |
+| `Default` | Default report template:
+   D - Yes, N - No. |
 | `RecordDtModified` |  |
 | `RowVersion` | Row version is used for concurrency check. |
 
